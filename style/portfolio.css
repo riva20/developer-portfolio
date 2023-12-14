@@ -83,7 +83,8 @@ main{
 .section-title
 {
     
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .section-description
 {
@@ -106,3 +107,95 @@ main{
     font-size: 20px;
     color: #474747;
 }
+.what-i-do{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px 20px;
+}
+.skilld{
+    text-align: center;
+    margin-top: 10px;
+}
+.my-skill
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+.skill-container
+{
+   
+    display: flex;
+    justify-content:space-around ;
+    
+}
+.skill{
+    background-color:aliceblue;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.skill-title{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*resume style*/
+.carreer
+{
+    display: flex;
+}
+.degree-title
+{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.institution{
+    color: #757575;
+    margin-bottom: 10px;
+}
+.edu-des
+{
+    border-bottom: 1px;
+}
+.education{
+    margin-right: 140px;
+}
+.button{
+    margin-top: 30px;
+  text-align: center;  
+  margin-bottom: 40px;
+
+}
+.Contact-us
+{
+    display: flex;
+    gap: 200px;
+    background-color: antiquewhite;
+    padding: 150px 200px;
+}
+.contact{
+    height: auto;
+    width: 400px;
+
+}
+.s-title
+{
+    
+    margin-bottom: 30px;}
+    .Contact-us input,textarea
+    {
+        margin-bottom: 30px;
+        border: 0;
+        padding: 18px 30px;
+        width: 100%;
+    }
+    .input
+    {
+        height: 64px;
+    }
+    .con-des{
+        margin-bottom: 10px;
+    }
